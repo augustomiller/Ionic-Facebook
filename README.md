@@ -79,7 +79,6 @@ Objetivo 🎯  &nbsp;&nbsp;Utilizando Ionic, Firebase, Firestono e Login com Fac
     "editor.fontSize": 16,
     "editor.lineHeight": 24,
     "editor.fontLigatures": true,
-    "window.zoomLevel": 1,
     "editor.rulers": [
         80,
         120
@@ -117,7 +116,7 @@ Objetivo 🎯  &nbsp;&nbsp;Utilizando Ionic, Firebase, Firestono e Login com Fac
     "typescript.suggest.autoImports": true,
     "workbench.startupEditor": "none",
 
-    "workbench.colorTheme": "Tokyo Night Storm",
+    "workbench.colorTheme": "Tokyo Night",
     "editor.tokenColorCustomizations": {
         "[Tokyo Night]": {
             "textMateRules": [
@@ -170,8 +169,12 @@ Objetivo 🎯  &nbsp;&nbsp;Utilizando Ionic, Firebase, Firestono e Login com Fac
         "prerelease",
         "releases/**"
     ],
+    "window.zoomLevel": 1,
 }
 ```
+## Fica com esse estilo
+
+![TokyoNith](https://user-images.githubusercontent.com/990877/151678976-5cc558ee-553e-4950-9c41-f2c2126ad25b.png)
 
 ## Criando o projeto
 
