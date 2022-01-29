@@ -178,6 +178,12 @@ Objetivo 🎯  &nbsp;&nbsp;Utilizando Ionic, Firebase, Firestono e Login com Fac
 
 ## Criando o projeto
 
+## Estrutura do Proejeto
+
+![EstruturaDoProjeto](https://user-images.githubusercontent.com/990877/151666526-b1e59f6a-ebee-4676-9b53-b1f70ed0a648.png)
+
+##
+
 ### Comando para listas o hellpers do Ionic
 ```script
 ionic
@@ -194,11 +200,28 @@ ionic start NomeDoMeuProjeto blank
 ```script
 ionic serve
 ```
-## Estrutura do Proejeto
+### O servidor já esta online
+```script
+http://localhost:8100/home
+```
+### Criando a página de Login
+```script
+ionic g
+```
+![criandoPagLogin](https://user-images.githubusercontent.com/990877/151679285-9f8d360d-a09e-4ac2-98a0-d7d58a041e7e.png)
+![parte2](https://user-images.githubusercontent.com/990877/151679329-16f83ce9-22bf-4567-a00e-cb47d333ed8e.png)
 
-![EstruturaDoProjeto](https://user-images.githubusercontent.com/990877/151666526-b1e59f6a-ebee-4676-9b53-b1f70ed0a648.png)
+### Podemos identificar no servidor local que a nova página já estar On o/
 
-##
+```script
+http://localhost:8100/login
+```
+
+<div align="center">
+
+  ![pageLogin](https://user-images.githubusercontent.com/990877/151679522-8fda2ba5-d8fc-480f-b72e-7eba60e116e1.png)
+  
+</div>
 
 ## License
 
