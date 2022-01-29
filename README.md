@@ -229,6 +229,14 @@ http://localhost:8100/login
   
 </div>
 
+### Criando o Shared Model [a flag --flat indica para o Angular CLI para não criar um diretório para esse arquivo]
+```script
+ionic g module shared/shared --flat
+````
+![flat](https://user-images.githubusercontent.com/990877/151680823-f8886ac3-c12f-4a29-ac69-3d418aba07be.png)
+
+##
+
 ## License
 
 <div align="center">
