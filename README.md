@@ -49,11 +49,6 @@ Objetivo 🎯  &nbsp;&nbsp;Utilizando Ionic, Firebase, Firestono e Login com Fac
 - [NodeJS Docs](https://nodejs.org/en/docs/)
 - [Git Docs](https://git-scm.com/)
 
-
-## Estrutura do Proejeto
-
-![EstruturaDoProjeto](https://user-images.githubusercontent.com/990877/151666526-b1e59f6a-ebee-4676-9b53-b1f70ed0a648.png)
-
 ## Pré requisitos
 
 - NVM
@@ -76,35 +71,91 @@ Objetivo 🎯  &nbsp;&nbsp;Utilizando Ionic, Firebase, Firestono e Login com Fac
  ### VS Code settings.json
  ```script
 {
-    "workbench.colorTheme": "One Dark Pro Darker",
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "workbench.iconTheme": "material-icon-theme",
     "files.autoSave": "afterDelay",
+    "editor.fontFamily": "JetBrains Mono ExtraLight",
+    "editor.tabSize": 4,
+    "editor.fontSize": 16,
+    "editor.lineHeight": 24,
+    "editor.fontLigatures": true,
+    "window.zoomLevel": 1,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "editor.suggestSelection": "first",
     "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
+    "breadcrumbs.enabled": true,
+    "editor.parameterHints.enabled": true,
+    "editor.formatOnSave": true,
+    "explorer.confirmDragAndDrop": true,
+
+    "editor.renderLineHighlight": "gutter",
+    "editor.semanticHighlighting.enabled": false,
+    "workbench.editor.labelFormat": "short",
+    "extensions.ignoreRecommendations": true,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "typescript.updateImportsOnFileMove.enabled": "never",
+
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+
+    "files.associations": {
+        ".sequelizerc": "javascript",
+        ".stylelintrc": "json",
+        ".prettierrc": "json",
+        "*.tsx": "typescriptreact"
+    },
+
+    "javascript.suggest.autoImports": true,
+    "typescript.suggest.autoImports": true,
+    "workbench.startupEditor": "none",
+
+    "workbench.colorTheme": "Tokyo Night Storm",
+    "editor.tokenColorCustomizations": {
+        "[Tokyo Night]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "comment",
+                        "meta.var.expr storage.type",
+                        "keyword.control.flow",
+                        "keyword.control.return",
+                        "meta.directive.vue punctuation.separator.key-value.html",
+                        "meta.directive.vue entity.other.attribute-name.html",
+                        "tag.decorator.js entity.name.tag.js",
+                        "tag.decorator.js punctuation.definition.tag.js",
+                        "storage.modifier"
+                    ],
+                    "settings": {
+                        "fontStyle": ""
+                    }
+                }
+            ]
+        }
+    },
 
     // Angular settings
-    
     "editor.autoIndent": "full",
     "editor.codeLens": false,
     "editor.cursorBlinking": "solid",
     "editor.cursorSmoothCaretAnimation": true,
     "editor.cursorStyle": "line",
-    "editor.fontLigatures": true,
     "editor.formatOnPaste": true,
     "editor.formatOnType": false,
-    "editor.formatOnSave": true,
     "editor.letterSpacing": 0.5,
-    "editor.lineHeight": 25,
     "editor.minimap.enabled": false,
     "editor.multiCursorModifier": "ctrlCmd",
-    "editor.suggestSelection": "first",
     "editor.tabCompletion": "on",
-    "editor.tabSize": 2,
     "editor.wordWrap": "on",
-    
+
     // File Angular Settings
-    
     "files.autoSaveDelay": 1000,
     "files.hotExit": "onExit",
     "files.defaultLanguage": "",
@@ -112,16 +163,27 @@ Objetivo 🎯  &nbsp;&nbsp;Utilizando Ionic, Firebase, Firestono e Login com Fac
     "prettier.printWidth": 120,
     "prettier.bracketSpacing": true,
     "prettier.singleQuote": true,
+
+    "branchwarnings.protectedBranches": [
+        "master",
+        "main",
+        "prerelease",
+        "releases/**"
+    ],
 }
 ```
 
 ## Criando o projeto
 
+### Comando para listas o hellpers do Ionic
+```script
+ionic
+```
 ### Comando para listas os comandos do Ionic
 ```script
 ionic start -h
 ```
-### Criando um projeto com o template em branco
+### Criando um projeto com o template em branco [blank | menu | tabs]
 ```script
 ionic start NomeDoMeuProjeto blank
 ```
@@ -129,6 +191,9 @@ ionic start NomeDoMeuProjeto blank
 ```script
 ionic serve
 ```
+## Estrutura do Proejeto
+
+![EstruturaDoProjeto](https://user-images.githubusercontent.com/990877/151666526-b1e59f6a-ebee-4676-9b53-b1f70ed0a648.png)
 
 ##
 
