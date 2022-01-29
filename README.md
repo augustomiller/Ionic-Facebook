@@ -204,6 +204,12 @@ ionic serve
 ```script
 http://localhost:8100/home
 ```
+<div align="center">
+  
+![localhos home](https://user-images.githubusercontent.com/990877/151679640-d0a70937-f08a-483b-8b2c-7a28c3f8d321.png)
+  
+</div>
+
 ### Criando a página de Login
 ```script
 ionic g
