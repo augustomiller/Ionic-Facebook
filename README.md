@@ -174,7 +174,7 @@ Objetivo 🎯  &nbsp;&nbsp;Utilizando Ionic, Firebase, Firestono e Login com Fac
 ```
 ## Fica com esse estilo
 
-![TokyoNith](https://user-images.githubusercontent.com/990877/151678976-5cc558ee-553e-4950-9c41-f2c2126ad25b.png)
+![TokyoNith](https://user-images.githubusercontent.com/990877/151679728-af4136cb-b039-410d-87df-0416453ac35e.png)
 
 ## Criando o projeto
 
