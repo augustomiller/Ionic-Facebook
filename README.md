@@ -174,7 +174,7 @@ Objetivo 🎯  &nbsp;&nbsp;Utilizando Ionic, Firebase, Firestono e Login com Fac
 ```
 ## Fica com esse estilo
 
-![TokyoNith](https://user-images.githubusercontent.com/990877/151679728-af4136cb-b039-410d-87df-0416453ac35e.png)
+![TokyoNith](https://user-images.githubusercontent.com/990877/151714484-9760acda-1927-4b9c-85d3-0c8ded3870ef.png)
 
 ## Criando o projeto
 
@@ -229,7 +229,10 @@ http://localhost:8100/login
   
 </div>
 
-### Criando o Shared Model [a flag --flat indica para o Angular CLI para não criar um diretório para esse arquivo]
+### Criando o Shared Model
+[A flag --flat indica para o Angular CLI para não criar um diretório para esse arquivo]
+
+[ Esse novo módulo Angular vai ficar responsável por expor recursos que são compartilhados por toda aplicação ]
 ```script
 ionic g module shared/shared --flat
 ````
