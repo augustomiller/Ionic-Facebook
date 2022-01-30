@@ -229,14 +229,26 @@ http://localhost:8100/login
   
 </div>
 
+## Sessão para organizarmos a estrutura do proejto de acordo como o "Angular Documentation Style Guide"
+
 ### Criando o Shared Model
 [A flag --flat indica para o Angular CLI para não criar um diretório para esse arquivo]
 
-[ Esse novo módulo Angular vai ficar responsável por expor recursos que são compartilhados por toda aplicação ]
+[Esse novo módulo Angular vai ficar responsável por expor recursos que são compartilhados por toda aplicação]
 ```script
 ionic g module shared/shared --flat
 ````
 ![flat](https://user-images.githubusercontent.com/990877/151680823-f8886ac3-c12f-4a29-ac69-3d418aba07be.png)
+
+### Criando o Core Model
+[Esse novo módulo Angular vai ficar responsável por remover a complexidade dentro do app.module.ts]
+
+[O app.module deve ficar responsável somente por orquestrar o bootstrap e recursos para inicialização da aplicação]
+
+```script
+ionic g module core/core --flat
+````
+![coreCore](https://user-images.githubusercontent.com/990877/151715297-492baf72-ea79-4588-b5ef-fb8da6d1b1f3.png)
 
 ##
 
