@@ -229,7 +229,10 @@ http://localhost:8100/login
   
 </div>
 
-### Criando o Shared Model [a flag --flat indica para o Angular CLI para não criar um diretório para esse arquivo]
+### Criando o Shared Model
+[A flag --flat indica para o Angular CLI para não criar um diretório para esse arquivo]
+
+[ Esse novo módulo Angular vai ficar responsável por expor recursos que são compartilhados por toda aplicação ]
 ```script
 ionic g module shared/shared --flat
 ````
