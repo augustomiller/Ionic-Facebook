@@ -174,7 +174,7 @@ Objetivo 🎯  &nbsp;&nbsp;Utilizando Ionic, Firebase, Firestono e Login com Fac
 ```
 ## Fica com esse estilo
 
-![TokyoNith](https://user-images.githubusercontent.com/990877/151678976-5cc558ee-553e-4950-9c41-f2c2126ad25b.png)
+![TokyoNith](https://user-images.githubusercontent.com/990877/151679728-af4136cb-b039-410d-87df-0416453ac35e.png)
 
 ## Criando o projeto
 
@@ -228,6 +228,14 @@ http://localhost:8100/login
   ![pageLogin](https://user-images.githubusercontent.com/990877/151679522-8fda2ba5-d8fc-480f-b72e-7eba60e116e1.png)
   
 </div>
+
+### Criando o Shared Model [a flag --flat indica para o Angular CLI para não criar um diretório para esse arquivo]
+```script
+ionic g module shared/shared --flat
+````
+![flat](https://user-images.githubusercontent.com/990877/151680823-f8886ac3-c12f-4a29-ac69-3d418aba07be.png)
+
+##
 
 ## License
 
