@@ -8,11 +8,18 @@
       <ion-item>
         <ion-icon name="mail-outline" color="primary" slot="start"></ion-icon>
         <ion-input type="email" placeholder="Email" formControlName="email" inputmode="mail" autofocus="true"></ion-input>
+
+        <ion-note slot="end" color="danger" *ngIf="email.dirty && email.hasError('required')">Ops! cadê o email?</ion-note>
+        <ion-note slot="end" color="danger" *ngIf="email.dirty && email.hasError('email')">Ops! email inválido!</ion-note>
+
       </ion-item>
 
       <ion-item>
         <ion-icon name="lock-closed-outline" color="primary" slot="start"></ion-icon>
         <ion-input type="password" placeholder="Password" formControlName="password"></ion-input>
+
+        <ion-note slot="end" color="danger" *ngIf="password.dirty && password.hasError('required')">Ops! cadê o password?</ion-note>
+        <ion-note slot="end" color="danger" *ngIf="password.dirty && password.hasError('minlength')">Ops! min. 6 dígitos!</ion-note>
       </ion-item>
 
       <ion-button expand="block" type="submit" [disabled]="authForm.invalid">Login</ion-button>

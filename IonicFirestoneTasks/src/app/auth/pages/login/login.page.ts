@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-login',
@@ -23,6 +23,19 @@ export class LoginPage implements OnInit {
     });
   }
 
+  // eslint-disable-next-line @typescript-eslint/member-ordering
+  get email(): FormControl {
+    // eslint-disable-next-line @typescript-eslint/consistent-type-assertions
+    return <FormControl>this.authForm.get('email');
+  }
+
+  // eslint-disable-next-line @typescript-eslint/member-ordering
+  get password(): FormControl {
+    // eslint-disable-next-line @typescript-eslint/consistent-type-assertions
+    return <FormControl>this.authForm.get('password');
+  }
+
+  // eslint-disable-next-line @typescript-eslint/member-ordering
   onSubmit(): void {
     console.log('AuthForm: ', this.authForm.value);
   }
